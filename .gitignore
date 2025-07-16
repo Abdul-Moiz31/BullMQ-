@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+
+# Misc
+*.swp
+*.swo
+
+# Dependency directories in subfolders
+order-server/node_modules/
+user-server/node_modules/
+mail-server/node_modules/
+
+# Build output
+dist/
+build/
+
+# IDE
+.idea/ 
+.gitignore
